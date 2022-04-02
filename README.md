@@ -35,7 +35,7 @@ https://drive.google.com/drive/folders/1pdnTUIlhuzyw4i3VHpvpSr5MbOQCOCXL?usp=sha
 putting the datasets into the [/data_loder](/data_loder)
 
 ### Weight
-You can download the weight of the detection model from 
+You can download the weight of the prediction model from 
 ```
 https://drive.google.com/drive/folders/1xBQ1r-pl7Kc45BP1B1MDn4rqCcy-CrPm?usp=sharing
 ```
