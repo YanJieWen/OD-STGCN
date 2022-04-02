@@ -45,7 +45,7 @@ Four weight file ,the `OD_NLSTM_model` is the state-of-the-art model
 
 ## Framework
 
-NLSTM is responsible for temporal feature extraction and ChebGCN is responsible for spatial feature extraction. The STGCN module is composed of the two modules, and the OD integrated output is carried out through two Gated Linear Units(GLU).
+**NLSTM** is responsible for temporal feature extraction and **ChebGCN** is responsible for spatial feature extraction. The **STGCN** module is composed of the two modules, and the OD integrated output is carried out through two Gated Linear Units(GLU).
 
 ![image](1.png)
 
