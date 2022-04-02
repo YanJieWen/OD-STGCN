@@ -53,13 +53,13 @@ NLSTM is responsible for temporal feature extraction and ChebGCN is responsible 
 ## Training
 
 In the [main.py](main.py), you can comment out `line 59` and line `60` for retraining.
-If you want to change the diffrent models, you can go to the [/models/baes_model.py](/models/baes_model.py) `line 16` to change the time capture module called `tempro_model`, we construct `NLSTM,LSTM,conv+GLU,conv`, we can modify the name as required
+If you want to change the diffrent models, you can go to the [/models/base_model.py](/models/baes_model.py) `line 16` to change the time capture module called `tempro_model`, we construct `NLSTM,LSTM,conv+GLU,conv`, we can modify the name as required
 
 ## Testing 
 Training and testing are separated. Our weight file not only saves the parameters of the model, but also saves the structure of the model, so it is an independent part.
 
 Commentting  `line 58`  and activating `line 59,60`  of the [main.py](main.py) . 
-We divide it into single-step prediction and multi-step prediction. It is multi-step prediction when `single_day = False`, and call [utilsod/metrics_utils](utilsod/metrics_utils) function for accuracy evaluation. When `single_day = True`, it is one-step prediction, and the prediction results will be output to `CSV` file.
+We divide it into single-step prediction and multi-step prediction. It is multi-step prediction when `single_day = False`, and call [utilsod/metrics_utils.py](utilsod/metrics_utils.py) function for accuracy evaluation. When `single_day = True`, it is one-step prediction, and the prediction results will be output to `CSV` file.
 
 ## Visualization 
 
